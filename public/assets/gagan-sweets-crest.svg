@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <title>Gagan Sweets heritage crest</title>
+  <defs>
+    <linearGradient id="gold" x1="36" y1="28" x2="204" y2="214" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2D995"/>
+      <stop offset=".48" stop-color="#C69229"/>
+      <stop offset="1" stop-color="#9B6B18"/>
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="120" r="112" fill="#601212"/>
+  <circle cx="120" cy="120" r="105" stroke="url(#gold)" stroke-width="2.5"/>
+  <circle cx="120" cy="120" r="97" stroke="#E7C979" stroke-opacity=".48" stroke-width="1"/>
+  <!-- A small crown of grain leaves frames the auspicious kalash. -->
+  <g stroke="url(#gold)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M69 166c-13-23-16-48-5-70 4-8 9-15 16-21M171 166c13-23 16-48 5-70-4-8-9-15-16-21" stroke-width="3"/>
+    <path d="M68 110c-13-1-21-9-22-19 12 0 20 7 22 19Zm3-21c-10-7-13-17-9-26 10 6 14 15 9 26Zm-2 43c-13 3-23-2-27-11 12-4 22 0 27 11Zm102-22c13-1 21-9 22-19-12 0-20 7-22 19Zm-3-21c10-7 13-17 9-26-10 6-14 15-9 26Zm2 43c13 3 23-2 27-11-12-4-22 0-27 11Z" fill="url(#gold)" stroke="none"/>
+  </g>
+  <!-- Flame -->
+  <path d="M120 49c2 11 15 18 15 31a15 15 0 1 1-30 0c0-8 5-14 10-20 2-3 4-7 5-11Z" fill="url(#gold)"/>
+  <path d="M120 70c1 6 7 10 7 16a7 7 0 1 1-14 0c0-4 3-8 7-16Z" fill="#FFF5D8"/>
+  <!-- Kalash silhouette -->
+  <path d="M92 105h56l-5 12c-2 5-4 9-4 17 0 13 8 19 13 27 3 5 4 10 4 16H84c0-6 1-11 4-16 5-8 13-14 13-27 0-8-2-12-4-17l-5-12Z" fill="#601212" stroke="url(#gold)" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M92 105h56M97 114h46M88 177h64M101 187h38" stroke="url(#gold)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M120 123c-9 10-12 22-12 36h24c0-14-3-26-12-36Z" stroke="#E7C979" stroke-width="2"/>
+  <path d="M102 146c6 4 12 6 18 6s12-2 18-6" stroke="#E7C979" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="120" cy="163" r="3" fill="#E7C979"/>
+  <!-- Fine grain-like flourishes anchor the vessel. -->
+  <path d="M77 190c11 8 23 12 36 13m50-13c-11 8-23 12-36 13" stroke="url(#gold)" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="71" cy="184" r="3" fill="#E7C979"/><circle cx="169" cy="184" r="3" fill="#E7C979"/>
+</svg>

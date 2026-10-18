@@ -34,8 +34,8 @@ export function Logo({
           style={{ width: current.px, height: current.px }}
         >
           <Image
-            src="/assets/gagan_sweets_professional_logo.jpg"
-            alt="Gagan Sweets Royal Logo"
+            src="/assets/gagan-sweets-crest.svg"
+            alt="Gagan Sweets heritage crest"
             fill
             sizes={`${current.px}px`}
             priority
@@ -53,9 +53,9 @@ export function Logo({
         className="relative shrink-0 transition-transform duration-300 hover:scale-105"
         style={{ width: current.px, height: current.px }}
       >
-        <Image
-          src="/assets/gagan_sweets_crest.svg"
-          alt="Gagan Sweets Crest"
+          <Image
+            src="/assets/gagan-sweets-crest.svg"
+            alt="Gagan Sweets heritage crest"
           width={current.px}
           height={current.px}
           priority
