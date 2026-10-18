@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <!-- Royal Maroon Background Gradient -->
+    <radialGradient id="royalMaroon" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#7e1717" />
+      <stop offset="70%" stop-color="#540e0e" />
+      <stop offset="100%" stop-color="#380707" />
+    </radialGradient>
+
+    <!-- Metallic Gold Gradient 1 -->
+    <linearGradient id="goldLinear" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf0cd" />
+      <stop offset="25%" stop-color="#d4a340" />
+      <stop offset="50%" stop-color="#9a6e1a" />
+      <stop offset="75%" stop-color="#e5c158" />
+      <stop offset="100%" stop-color="#b88322" />
+    </linearGradient>
+
+    <!-- Metallic Gold Highlight Gradient -->
+    <linearGradient id="goldHighlight" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b37c1d" />
+      <stop offset="35%" stop-color="#fcedb6" />
+      <stop offset="65%" stop-color="#d8a642" />
+      <stop offset="100%" stop-color="#fff8dc" />
+    </linearGradient>
+
+    <!-- Drop Shadows for 3D depth -->
+    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+
+    <!-- Text Curved Paths -->
+    <!-- Top Curve for GAGAN SWEETS -->
+    <path id="curveTop" d="M 85,300 A 215,215 0 0,1 515,300" fill="none" />
+    <!-- Bottom Curve for TARN TARAN -->
+    <path id="curveBottom" d="M 120,320 A 185,185 0 0,0 480,320" fill="none" />
+    <!-- Small Top Blessing Curve -->
+    <path id="curveBlessing" d="M 130,290 A 170,170 0 0,1 470,290" fill="none" />
+  </defs>
+
+  <!-- Outer Drop Shadow Circle -->
+  <circle cx="300" cy="300" r="285" fill="#200404" opacity="0.4" />
+
+  <!-- Outer Scalloped / Beaded Frame Background -->
+  <circle cx="300" cy="300" r="275" fill="url(#goldLinear)" filter="url(#goldGlow)" />
+  <circle cx="300" cy="300" r="264" fill="#380707" />
+
+  <!-- Dotted Ornamental Ring -->
+  <circle cx="300" cy="300" r="255" fill="none" stroke="url(#goldHighlight)" stroke-width="3" stroke-dasharray="4,8" />
+
+  <!-- Main Royal Maroon Inner Shield -->
+  <circle cx="300" cy="300" r="244" fill="url(#royalMaroon)" />
+
+  <!-- Inner Double Fine Gold Borders -->
+  <circle cx="300" cy="300" r="236" fill="none" stroke="url(#goldLinear)" stroke-width="2" />
+  <circle cx="300" cy="300" r="230" fill="none" stroke="url(#goldHighlight)" stroke-width="1.5" stroke-dasharray="2,6" />
+
+  <!-- Decorative Corner / Quadrant Flourishes -->
+  <!-- Top Center Kalash / Diya Flame Emblem -->
+  <g transform="translate(300, 165)" filter="url(#softShadow)">
+    <!-- Aura / Glow -->
+    <circle cx="0" cy="0" r="32" fill="#d4a340" opacity="0.15" />
+    
+    <!-- Diya Base / Vessel -->
+    <path d="M -26,-2 C -24,18 24,18 26,-2 C 16,3 -16,3 -26,-2 Z" fill="url(#goldHighlight)" />
+    <!-- Vessel Rim -->
+    <ellipse cx="0" cy="-2" rx="26" ry="5" fill="url(#goldLinear)" />
+
+    <!-- Royal Diya / Sacred Flame -->
+    <path d="M 0,-36 C 8,-22 14,-14 0,-4 C -14,-14 -8,-22 0,-36 Z" fill="url(#goldHighlight)" />
+    <!-- Inner Flame Core -->
+    <path d="M 0,-28 C 4,-18 7,-12 0,-5 C -7,-12 -4,-18 0,-28 Z" fill="#fff" opacity="0.8" />
+
+    <!-- Flanking Traditional Leaves (Betel / Mango leaves) -->
+    <path d="M -20,-3 C -36,-14 -32,-30 -22,-26 C -20,-16 -16,-8 -20,-3 Z" fill="url(#goldLinear)" />
+    <path d="M 20,-3 C 36,-14 32,-30 22,-26 C 20,-16 16,-8 20,-3 Z" fill="url(#goldLinear)" />
+
+    <!-- Auspicious Star Accents -->
+    <circle cx="-42" cy="-10" r="2.5" fill="#fdf0cd" />
+    <circle cx="42" cy="-10" r="2.5" fill="#fdf0cd" />
+  </g>
+
+  <!-- Top Curved Heritage Text -->
+  <text fill="#e5c158" font-family="'Cinzel', Georgia, serif" font-size="13" font-weight="700" letter-spacing="4" filter="url(#softShadow)">
+    <textPath href="#curveBlessing" startOffset="50%" text-anchor="middle">
+      ★ PURE DESI GHEE TRADITIONS ★
+    </textPath>
+  </text>
+
+  <!-- Main Brand Title: GAGAN SWEETS (Bold Arched Serif) -->
+  <text fill="url(#goldHighlight)" font-family="'Cinzel', 'Playfair Display', Georgia, serif" font-size="44" font-weight="900" letter-spacing="6" filter="url(#goldGlow)">
+    <textPath href="#curveTop" startOffset="50%" text-anchor="middle">
+      GAGAN SWEETS
+    </textPath>
+  </text>
+
+  <!-- Central Ornamental Divider Wing -->
+  <g transform="translate(300, 318)" filter="url(#softShadow)">
+    <!-- Center Jewel / Diamond -->
+    <polygon points="0,-8 8,0 0,8 -8,0" fill="url(#goldHighlight)" />
+    <!-- Left Wing Flourish -->
+    <path d="M -16,0 Q -60,-12 -120,-1 Q -60,4 -16,0 Z" fill="url(#goldLinear)" />
+    <circle cx="-128" cy="-1" r="3" fill="#fdf0cd" />
+    <!-- Right Wing Flourish -->
+    <path d="M 16,0 Q 60,-12 120,-1 Q 60,4 16,0 Z" fill="url(#goldLinear)" />
+    <circle cx="128" cy="-1" r="3" fill="#fdf0cd" />
+  </g>
+
+  <!-- Center Decorative Banner: RASOI & BAKERS -->
+  <g transform="translate(300, 365)" filter="url(#goldGlow)">
+    <!-- Banner Ribbon Background Ribs -->
+    <path d="M -160,-22 L 160,-22 L 175,0 L 160,22 L -160,22 L -175,0 Z" fill="url(#goldLinear)" />
+    <!-- Banner Inner Panel -->
+    <path d="M -152,-17 L 152,-17 L 163,0 L 152,17 L -152,17 L -163,0 Z" fill="#4a0a0a" stroke="url(#goldHighlight)" stroke-width="1.5" />
+
+    <!-- Ribbon Tail Ends Left & Right -->
+    <path d="M -175,0 L -195,-16 L -190,0 L -195,16 Z" fill="url(#goldLinear)" />
+    <path d="M 175,0 L 195,-16 L 190,0 L 195,16 Z" fill="url(#goldLinear)" />
+
+    <!-- Subtitle Text -->
+    <text x="0" y="6" fill="url(#goldHighlight)" font-family="'Cinzel', Georgia, serif" font-size="18" font-weight="800" letter-spacing="4" text-anchor="middle">
+      RASOI &amp; BAKERS
+    </text>
+  </g>
+
+  <!-- Bottom Location & Trust Arc -->
+  <text fill="#fcedb6" font-family="'Cinzel', Georgia, serif" font-size="14" font-weight="700" letter-spacing="5" filter="url(#softShadow)">
+    <textPath href="#curveBottom" startOffset="50%" text-anchor="middle">
+      TARN TARAN &bull; EST. 1995
+    </textPath>
+  </text>
+
+  <!-- Bottom Little Star -->
+  <g transform="translate(300, 508)">
+    <polygon points="0,-7 3,-2 8,-2 4,2 6,7 0,4 -6,7 -4,2 -8,-2 -3,-2" fill="url(#goldHighlight)" filter="url(#softShadow)" />
+  </g>
+</svg>
